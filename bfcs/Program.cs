@@ -7,8 +7,6 @@ using System.Text;
 namespace bfcs {
     
     class Program {
-        static char[] cells = new char[Int16.MaxValue];
-        static int cellLocation = 0;
         static void Main(string[] args) {
             string bfString;
             if(args.Length == 0){
